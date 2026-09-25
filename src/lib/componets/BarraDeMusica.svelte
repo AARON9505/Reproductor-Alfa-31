@@ -4,7 +4,7 @@
 </script>
 
 {#if trackStore.song}
-<footer class="bg-indigo-600 text-emerald-50 sticky bottom-0 px-10 py-4 flex items-center gap-4">
+<footer class="bg-indigo-600 text-emerald-50 sticky bottom-0 px-7 py-1 flex items-center gap-2">
 
 	<div class="w-20 h-20">
 	<img src="{trackStore.song.album.image}" alt="">

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
-    import { actualizarSong, trackState } from '$lib/store/cancion.svelte';
+    import { actualizarSong } from '$lib/store/cancion.svelte';
     import BarraDeMusica from '$lib/componets/BarraDeMusica.svelte';
 	
 	let { children } = $props();
